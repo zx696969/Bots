@@ -63,7 +63,7 @@ def handle_message(update: Update, context):
 # Start the bot
 def main():
     # Telegram bot API token
-    updater = Updater("YOUR_BOT_API_TOKEN", use_context=True)
+    updater = Updater("7758423195:AAFzOGYwyaZMyrUgv5tqWanLStlP7DcgkLI", use_context=True)
     dispatcher = updater.dispatcher
 
     dispatcher.add_handler(MessageHandler(Filters.text & Filters.regex(r'.*'), handle_message))  # Text filter
